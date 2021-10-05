@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class Password {
     public static void main(String[] args) {
     Scanner scan=new Scanner(System.in);
-    System.out.print ("First Name: ");
+    System.out.print ("First name: ");
     String firstName= scan.nextLine();
     System.out.print("Middle name: " );
     String middleName = scan.nextLine();
@@ -23,17 +23,21 @@ public class Password {
 
 
     char lastL= lastName.charAt(lastName.length()-1);
-    middleName.charAt(middleName.length()-1); firstName.charAt(firstName.length()-1);
+    middleName.charAt(middleName.length()-1); firstName.charAt(firstName.length()-1); lastName.charAt(lastName.length()-1);
+
+
+        System.out.println("        ");
+        System.out.println("Password: "+firstName.toUpperCase().charAt(mid1)+
+        middleName.toUpperCase().charAt(mid2)+
+        lastName.toUpperCase().charAt(mid3) +lastName.charAt(lastName.length()-1)+
+        middleName.charAt(middleName.length()-1)+ firstName.charAt(firstName.length()-1)+age*75);
 
 
 
 
-        System.out.println("Password: "+ midL+ lastL);
 
 
 
 
 
-
-
-}}
+    }}
