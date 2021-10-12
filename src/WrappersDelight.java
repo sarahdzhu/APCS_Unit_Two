@@ -8,13 +8,13 @@ public class WrappersDelight {
     Integer num2 = 8;
     double num3 = 2.5;
     Double num4 = num2+num3;
-    Integer two=num2-3;
-    Double three =num1+two+num4;
-    double one= two+three;
+   num2=5;
+    num3 =num1+num2+num4;
+    num1= (int)(num2+num4);
 
         System.out.println(num1);
-        System.out.println(two);
-        System.out.println(three);
+        System.out.println(num2);
+        System.out.println(num3);
         System.out.println(num4);
 
 
