@@ -1,5 +1,20 @@
 public class RandomNumbers {
 
+    public static Object getRandom() {
+        return Math.random()*38;
+
+    }
+public static void main(String[] args){
+        getRandom();
+    getRandom();
+    getRandom();
+    getRandom();
+    getRandom();
+
+    System.out.println(getRandom());
+
+}
+
     // create a static method called getRandom() that does not take any parameters and returns an int
     // between 0 and 37 inclusive.
 
